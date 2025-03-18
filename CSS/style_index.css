@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(../IMAGENS/7294377014477c36a328cbbef5674713.png);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column-reverse;
+    gap: 30px;
+    font-family: "Poppins", sans-serif;
+    font-size: clamp(0.5rem, 2vw, 1rem);
+}
+.Container {
+    max-width: 380px;
+    width: 40%;
+    background-color: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 10px;
+    color: white;
+    padding: 0% 1%;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    backdrop-filter: blur(500px);
+}
+
+.Container h1 {
+    font-size: clamp(0.5rem, 5vw, 2.25rem);
+    
+    text-align: center;
+}
+
+.input_box {
+    position: relative;
+    width: 100%;
+    max-height: 50px;
+    height: 50%;
+    margin: 8% 0;
+}
+
+.input_box input {
+    width: 100%;
+    height: 70%;
+    background-color: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 40px;
+    outline: none;
+    font-size: clamp(0.3rem, 2vw, 1rem);
+    color: white;
+    padding: 5% 10% 5% 5%;
+}
+
+.input_box input::placeholder {
+    color: rgb(169, 165, 165);
+}
+
+.input_box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.lembrar_senha {
+    display: flex;
+    justify-content: space-between;
+    margin: -5% 0px 5%;
+    font-size: clamp(0.3rem, 2vw, 1rem);
+}
+
+.lembrar_senha input {
+    width: 30px;
+    accent-color: white;
+    margin: 0.0001%;
+}
+
+.lembrar_senha a {
+    text-decoration: none;
+    color: white;
+}
+
+.lembrar_senha a:hover {
+    text-decoration: underline;
+}
+
+.login {
+    width: 100%;
+    height: 90%;
+    background-color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: clamp(0.3rem, 2vw, 1rem);
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    padding: 1em;
+}
+
+.login:hover {
+    text-decoration: underline;
+    background-color: rgb(193, 186, 186);
+}
+
+.registrar {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: clamp(0.3rem, 2vw, 1rem);
+}
+
+.registrar a {
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: clamp(0.3rem, 1.5vw, 1rem);
+}
+
+.registrar a:hover {
+    text-decoration: underline;
+}
+
+.gov__ma {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    width: 10%;
+    height: auto;
+}
+
+.trilhas {
+    max-width: 700px;
+    width: 60%;
+}

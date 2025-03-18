@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sriracha&display=swap');
+
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+h2{
+    margin-top: 500px;
+}
+h3{
+    padding-bottom: 25px;
+}
+/* Corpo */
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+}
+
+/* Layout flexível para dividir o conteúdo */
+.esquerda {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 50%;
+}
+
+/* Título principal */
+.titulo {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+/* Parágrafo do título */
+.Paragrafo_titulo {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Campos do formulário */
+form div {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Inputs e Select estilizados */
+input, select {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.8);
+}
+form div {
+    margin-bottom: 10px;  /* Espaçamento entre os campos */
+}
+
+textarea {
+    width: 100%;  
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-family: 'Poppins', sans-serif;
+}
+
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Containers de opções */
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Caixa flexível para as opções */
+.left, .right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Estilização das caixas de seleção */
+.box {
+    display: flex;
+    align-items: center;
+    background: #f67841;
+    padding: 12px;
+    border-radius: 8px;
+    gap: 10px;
+    transition: 0.3s;
+}
+
+/* Efeito ao passar o mouse */
+.box:hover {
+    background: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+
+/* Estilização da seção da direita com imagem */
+.direita {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.direita img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .esquerda, .direita {
+        width: 100%;
+    }
+}
+
+/* Estilização da caixa de seleção */
+.checkbox-container {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.checkbox-container input {
+    margin-right: 10px;
+    transform: scale(1.2); /* Aumenta o tamanho da caixa de seleção */
+}
+
+.checkbox-container label {
+    font-size: 14px;
+}
+
+.checkbox-container a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.checkbox-container a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo do contêiner que envolve o botão para centralizar */
+.submit-container {
+    display: flex; /* Define o layout como flexbox */
+    justify-content: center; /* Centraliza o botão horizontalmente */
+    align-items: center; /* Centraliza o botão verticalmente, se necessário */
+    margin-top: 20px; /* Adiciona um espaço acima do botão */
+}
+
+/* Estilo do botão */
+.submit-btn {
+    background: #f67841;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+/* Efeito de animação no hover */
+.submit-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Efeito de animação ao clicar */
+.submit-btn:active {
+    background-color: #003f7f;
+    transform: scale(0.95);
+}
+
+/* Efeito de foco */
+.submit-btn:focus {
+    outline: none;
+    box-shadow: 0 0 5px 2px rgba(0, 123, 255, 0.6);
+}
