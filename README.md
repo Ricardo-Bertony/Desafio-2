@@ -28,9 +28,9 @@ O projeto foi desenvolvido utilizando:
    ```
 2. Acesse a pasta do projeto:
    ```bash
-   cd nome-do-repositorio
+   cd Desafio-2
    ```
-3. Abra o projetco clicando <a href="https://ricardo-bertony.github.io/Desafio-2/" target="_blank">aqui</a>
+3. Abra o projeto clicando <a href="https://ricardo-bertony.github.io/Desafio-2/" target="_blank">aqui</a>
 
 ## Contribuição
 Contribuições são bem-vindas! Para contribuir:
