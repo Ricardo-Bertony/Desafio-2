@@ -30,7 +30,7 @@ O projeto foi desenvolvido utilizando:
    ```bash
    cd Desafio-2
    ```
-3. Abra o projeto clicando <a href="https://ricardo-bertony.github.io/Desafio-2/" target="_blank">aqui</a>
+3. Abra o projeto clicando <a href="https://ricardo-bertony.github.io/Desafio-2/" target="blank">aqui</a>
 
 ## Contribuição
 Contribuições são bem-vindas! Para contribuir:
